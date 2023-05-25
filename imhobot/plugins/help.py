@@ -25,8 +25,8 @@ async def helps(client, message):
     telegraph.create_account(short_name='FoxServices')
     link = f"https://telegra.ph/{telegraph.create_page('FoxUserbot Help', html_content=f'{helpes}')['path']}"
     await message.edit(f"""
-<b>🦊 | imhoUserbot RUNNING</b>
-<b>🔒 | Version: {version}</b>
+<b>💫 | ImhoUserbot RUNNING</b>
+<b>♻ | Version userbot: {version}</b>
 <b>🐍 | Python: {python_version()}</b>
 <b>🥧 | Pyrogram: {__version__}</b>
 <b>💼 | Modules: {len(module_list)}</b>
