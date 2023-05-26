@@ -15,7 +15,7 @@ async def uploadmod(client, message):
         await client.send_document(
             message.chat.id,
             f"plugins/{file}",
-            caption=f"Module `{module_name}`\nfor FoxUserbot 🦊"
+            caption=f"Module `{module_name}`\nfor  ImhoUserbot"
         )
         await message.delete()
     except Exception as error:
