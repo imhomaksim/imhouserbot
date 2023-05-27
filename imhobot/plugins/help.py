@@ -33,7 +33,7 @@ async def helps(client, message):
 
 <
 ❤️ | Thanks for using imhoUserbot.
-❤️ | If you find a malfunction, write issues in github.""", disable_web_page_preview=True)
+❤️ | для связи пишите мне в телеграм @imhomaksim.""", disable_web_page_preview=True)
 
 
 module_list['Help'] = f'{prefix}help'
