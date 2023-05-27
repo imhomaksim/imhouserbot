@@ -10,9 +10,10 @@ prefix = my_prefix()
 async def support(client, message):
     await message.delete()
     await client.send_message(chat_id=message.chat.id,
-                             text="
+        text="""
 █▀ █░█ █▀█ █▀█ █▀█ █▀█ ▀█▀
-▄█ █▄█ █▀▀ █▀▀ █▄█ █▀▄ ░█░@imhomaksim")
+▄█ █▄█ █▀▀ █▀▀ █▄█ █▀▄ ░█░@imhomaksim"""
+    )
     
     module_list['Support'] = f'{prefix}support'
     file_list['Support'] = 'support.py'
