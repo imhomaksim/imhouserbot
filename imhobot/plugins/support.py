@@ -10,7 +10,7 @@ async def support(client, message):
     await message.delete()
     await client.send_photo(
         chat_id=message.chat.id,
-        photo="https://github.com/FoxUserbot/FoxUserbot/raw/main/logo.png",
+        photo="https://github.com/imhomaksim/imhouserbot/blob/main/imhobot/logo.png",
         caption="Support: @imhomaksim"
     )
 
