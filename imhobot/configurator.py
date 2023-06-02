@@ -3,8 +3,8 @@ import sys
 import configparser
 
 
-config_id = "2860432"
-config_hash = "2fde6ca0f8ae7bb58844457a239c7214"
+config_id = "29106811"
+config_hash = "04f55deaa709686a04e107274fb6764c"
 config_model = "IMHOBOT"
 
 config = configparser.ConfigParser()
