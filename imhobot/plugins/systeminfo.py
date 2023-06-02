@@ -42,7 +42,7 @@ async def sysinfo(client, message):
     )
 
     await message.reply_text(info_message)
-
+    await message.delete() 
 
 module_list['systeminfo'] = f'{prefix}infosystem'
 file_list['systeminfo'] = 'systeminfo.py'
