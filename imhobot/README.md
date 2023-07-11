@@ -16,4 +16,4 @@ cd imhouserbot
 cd imhobot 
 python maim.py
 
-Thank you all!
+Thank you 
