@@ -25,7 +25,7 @@ async def weather(client, message):
     city = message.command[1]
     await message.edit("Check weather...")
     r = requests.get(f"https://wttr.in/{city}?m?M?0?q?T&lang=en")
-    await message.edit(f"🗺 You sity/village: {city}\n{r.text}")
+    await message.edit(f"🗺 You сity/village: {city}\n{r.text}")
     await client.send_photo(
         chat_id=message.chat.id,
         photo=get_pic(city),
