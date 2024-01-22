@@ -1,7 +1,6 @@
 from pyrogram import Client, filters
 from plugins.settings.main_settings import module_list, file_list
 from datetime import datetime
-from dateutil import tz
 
 from prefix import my_prefix
 prefix = my_prefix()
